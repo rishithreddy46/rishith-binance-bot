@@ -1,0 +1,14 @@
+2025-07-09 00:00:54,126 - INFO - [SIMULATED] Market Order Placed | BTCUSDT | BUY | Qty: 0.01
+2025-07-09 00:03:17,518 - INFO - [SIMULATED] Limit Order Placed | BTCUSDT | BUY | Qty: 0.01 | Price: 58000.0
+2025-07-09 00:06:42,539 - INFO - [SIMULATED] Market Order | BTCUSDT | BUY | Qty: 0.01
+2025-07-09 00:07:44,197 - INFO - [SIMULATED] Limit Order | BTCUSDT | BUY | Qty: 0.01 | Price: 58000.0
+2025-07-09 00:23:43,166 - INFO - [SIMULATED][OCO] Take-Profit Order | {'orderId': 999999, 'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.01, 'price': 60000.0, 'stopPrice': None, 'status': 'NEW'}
+2025-07-09 00:23:43,166 - ERROR - \u274c Failed to simulate OCO: name 'ORDER_TYPE_STOP_MARKET' is not defined
+2025-07-09 00:29:03,984 - INFO - [SIMULATED][TWAP] Starting TWAP: 5 slices of 0.02 BTCUSDT every 3 sec
+2025-07-09 00:29:04,009 - INFO - [SIMULATED][TWAP] Slice 1/5: {'orderId': 999999, 'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.02, 'price': None, 'stopPrice': None, 'status': 'NEW'}
+2025-07-09 00:29:07,055 - INFO - [SIMULATED][TWAP] Slice 2/5: {'orderId': 999999, 'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.02, 'price': None, 'stopPrice': None, 'status': 'NEW'}
+2025-07-09 00:29:10,060 - INFO - [SIMULATED][TWAP] Slice 3/5: {'orderId': 999999, 'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.02, 'price': None, 'stopPrice': None, 'status': 'NEW'}
+2025-07-09 00:29:13,064 - INFO - [SIMULATED][TWAP] Slice 4/5: {'orderId': 999999, 'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.02, 'price': None, 'stopPrice': None, 'status': 'NEW'}
+2025-07-09 00:29:16,066 - INFO - [SIMULATED][TWAP] Slice 5/5: {'orderId': 999999, 'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.02, 'price': None, 'stopPrice': None, 'status': 'NEW'}
+2025-07-09 00:32:29,789 - INFO - [SIMULATED] Market Order Placed | BTCUSDT | BUY | Qty: 0.01
+2025-07-09 00:32:31,891 - INFO - [SIMULATED] Limit Order Placed | BTCUSDT | SELL | Qty: 0.01 | Price: 58000.0

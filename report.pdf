@@ -1,0 +1,59 @@
+Binance Futures Trading Bot (Mock Version)
+Submitted by: Rishith Reddy
+Assignment: CLI-based Binance USDT-M Futures Order Bot
+Date: 09-07-2025
+Github : https://github.com/rishithreddy46
+
+
+ 
+📌 Objective
+To build a command-line trading bot that simulates placing orders (Market, Limit, OCO, TWAP) on Binance USDT-M Futures using offline mock clients and structured logging.
+
+No real API keys were used — all orders are simulated offline.
+📁 Project Structure
+
+rishith_binance_bot/
+├── src/
+│   ├── main.py
+│   ├── market_orders.py
+│   ├── limit_orders.py
+│   ├── mock_client.py
+│   ├── utils.py
+│   ├── logger.py
+│   └── advanced/
+│       ├── oco.py
+│       └── twap.py
+├── bot.log
+├── README.md
+├── report.pdf
+└── requirements.txt
+
+✅ Features Implemented
+
+- Market Order (CLI + simulation)
+- Limit Order
+- OCO Order (Simulated take-profit + stop-loss)
+- TWAP Order (slices large orders over time)
+- Mock client used for offline execution
+- Structured logging with timestamps in `bot.log`
+
+🖼️ Screenshots
+Add CLI screenshots here. For example:
+- Menu screen
+- Market order output
+- OCO order output
+- TWAP simulation output
+🔁 OCO & TWAP Strategy
+OCO Order:
+- Places a take-profit (LIMIT SELL) and stop-loss (STOP-MARKET SELL) at the same time.
+- If one is triggered, the other is logically canceled.
+- Simulated through mock logic.
+TWAP Strategy:
+- Splits a large quantity (e.g. 0.1 BTC) into multiple smaller chunks.
+- Places orders at fixed time intervals (e.g. every 3 seconds).
+🧠 Challenges Faced
+
+- Binance Futures Testnet was not accessible, so a mock client was implemented for offline simulation.
+- Focused on replicating API structure to support switching to real Binance API later.
+- Handled CLI input validation and error logging effectively.
+
